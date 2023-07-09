@@ -41,19 +41,19 @@ namespace WindowsFormsApp1
 
 
 
-            //List<Kisiler> kisiler = new List<Kisiler>()
-            //{new Kisiler()
-            //{     
+            List<Kisiler> kisiler = new List<Kisiler>()
+            {new Kisiler()
+            {
 
-            //    Adi = textBox1.Text,
-            //    Soyadi=textBox2.Text,
-            //    DogumiYeri=textBox3.Text,
-            //}
-            //};
-            //foreach (Kisiler item in kisiler)
-            //{
-            //    listBox1.Items.Add(item);
-            //}
+                Adi = textBox1.Text,
+                Soyadi=textBox2.Text,
+                DogumiYeri=textBox3.Text,
+            }
+            };
+            foreach (Kisiler item in kisiler)
+            {
+                listBox1.Items.Add(item);
+            }
 
 
 
